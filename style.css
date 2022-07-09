@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2C3639;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DCD7C9;
+}
+input, select{
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 1rem;
+}
+select{
+  font-size: 1rem;
+  width: 100%;
+  height: 1.7rem;
+}
+label{
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cr-role{
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-div{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 100%;
+  background-color: #3F4E4F;
+  border-radius: 10px;
+  padding: 0 40px 30px 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.radio-btn{
+  display: inline-block;
+  width: 15%;
+  box-shadow: none;
+}
+.recomend-text{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submit{
+  margin-top: 25px;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #A27B5C;
+  color: #DCD7C9;
+  transition-duration: 0.3s;
+}
+.submit:hover{
+  background-color: #DCD7C9;
+  color: #A27B5C;
+}
+
+#title{
+  font-size: 4rem;
+  text-align: center;
+}
+#sub-title{
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+}

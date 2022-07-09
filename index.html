@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <title>Survey From</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="survey-form">
+        <h1 id="title">Survey Form</h1>
+        <div class="form-items">
+          <p id="sub-title">Let us know how we can improve freeCodeCamp</p>
+          <div class="name">
+            <label for="name" id="name">*Name</label>
+            <input required type="text" name="name">
+          </div>
+          <div class="email">
+            <label for="email" id="email">*Email</label>
+            <input required type="text" name="name">
+          </div>
+          <div class="age">
+            <label for="age" id="age">Age</label>
+            <input type="number" name="age" min="1" max="99">
+          </div>
+          <div class="current-role">
+            <label class="cr-role" for="role">Which option best describes your current role ?</label>
+            <select class="role" name="role">
+              <option disabled value="student">Current Role</option>
+              <option value="student">Student</option>
+              <option value="student">Teacher</option>
+              <option value="student">Other</option>
+            </select>
+          </div>
+          <div class="recommend">
+            <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+            <label class="recomend-text" for="definetely">
+              <input class="radio-btn" type="radio" name="radio-btn" value="1">Definetely
+            </label>
+            <label class="recomend-text" for="maybe">
+              <input class="radio-btn" type="radio" name="radio-btn" value="2">Maybe
+            </label>
+            <label class="recomend-text" for="notsure">
+              <input class="radio-btn" type="radio" name="radio-btn" value="3">Not Sure
+            </label>
+          </div>
+          <div class="submit-btn">
+            <input class="submit" type="submit" name="submit-btn" value="submit-btn">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
